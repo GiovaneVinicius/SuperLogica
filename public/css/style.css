@@ -1,0 +1,76 @@
+.form_box form div span{
+    position: absolute;
+    top: 41px;
+    right: 9px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_box div{
+    position: relative;
+}
+.form_box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form_box form{
+    width: 500px;
+    box-shadow: 0px 0px 3px #c3c3c399;
+    padding: 25px;
+    border-radius: 6px;
+}
+.form_box h2{
+    margin-bottom: 30px;
+    color: #424242;
+}
+.user_box{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.previous, .next, .current, .buttons a{
+    background: #3f53a4;
+    padding: 5px 10px;
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 2px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.previous:hover, .next:hover, .current:hover, .buttons a:hover{
+    color: #FFF;
+    background-color: #5061a5;
+}
+.user_box table{
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+#users_wrapper{
+    width: 100%;;
+}
+.user_box table td, .user_box table th{
+    text-align: center!important;
+}
+code{
+    background: #3b3b3b;
+    padding: 25px;
+    margin: 10px 0;
+    color: greenyellow;
+    border-radius: 10px;
+    font-size: 12px;
+}
